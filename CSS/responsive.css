@@ -1,7 +1,7 @@
 /* =============================================
         extra small device srart
 =============================================== */
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (max-width: 575.98px) {
   /* ===============================================
       Nav part strat
   ================================================= */
@@ -93,7 +93,52 @@
 /* ===============================================
       work part strat
   ================================================= */
+.responsive-work-left {
+  margin: 0px 40px;
+}
+.responsive-work-left-heading {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 35px;
+  width: fit-content;
+}
+.responsive-work-left-paragraph {
+  width: 245px !important;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+#work {
+  padding: 86px 0px 0px;
+}
 
+.responsive-work-btn {
+  font-size: 16px;
+  line-height: 18px;
+}
+.work-btn {
+  padding-left: 17px;
+}
+.work-btn .work-btn-arrow {
+  position: absolute;
+  top: 2px;
+  right: -24px;
+  opacity: 0;
+  transition: all linear 0.2s;
+  font-size: 13px;
+}
+.responsive-work-right {
+  padding-top: 95px;
+  text-align: center;
+}
+
+.work-right-elm img {
+  width: 29%;
+}
+.work-right-elm {
+  margin-bottom: 33px;
+}
+
+/* 
 .responsive-work-left-heading {
   font-size: 29px;
   font-weight: 600;
@@ -149,16 +194,36 @@
   font-size: 12px !important;
   width: 300px !important;
   margin-bottom: 19px;
-}
+} */
 
 /* ===============================================
       work part end
   ================================================= */
 /* ===============================================
-      Nav part strat
+      Project part strat
   ================================================= */
+.responsive-project-heading {
+  font-size: 15px;
+}
+.responsive-project-btn {
+  font-size: 12px;
+  margin-left: 0px;
+}
+.responsive-project-row-one-elm {
+  justify-content: start;
+  gap: 35px;
+}
+.responsive-porject-icon {
+  top: 3.5px;
+  right: -14px;
+  opacity: 0;
+}
+.responsive-project-btn:hover .responsive-porject-icon {
+  opacity: 1;
+  right: -23px !important;
+}
 /* ===============================================
-      Nav part end
+      Project part end
   ================================================= */
 /* ===============================================
       Nav part strat
@@ -194,6 +259,12 @@
             large device start
 =============================================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
 }
 /* =============================================
             large device end
@@ -202,6 +273,15 @@
         extra large device start
 =============================================== */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
+  .responsive-work-left p {
+    width: 405px !important;
+  }
 }
 /* =============================================
   extra large device end
@@ -209,7 +289,13 @@
 /* =============================================
      extra extra large device start
 =============================================== */
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
 }
 /* =============================================
          extra extra large device start
