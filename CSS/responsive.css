@@ -130,8 +130,8 @@
   right: -25px !important;
 }
 .work-right {
-  margin-left: 36px;
-  margin-top: 75px;
+  margin-left: 36px !important;
+  margin-top: 75px !important;
 }
 .work-right-elm img {
   width: 13%;
