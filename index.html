@@ -12,6 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
   </head>
   <body>
     <!-- ==================================================================
@@ -31,9 +32,10 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <!-- <span class="navbar-toggler-icon nav-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered menu-icon"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse nav-elm-responsive" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -54,7 +56,7 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
           </ul>
-          <a href="#" class="nav-btn common-btn">Contact us</a>
+          <a href="#" class="nav-btn common-btn responsive-common-btn">Contact us</a>
         </div>
       </div>
     </nav>
@@ -68,7 +70,7 @@
       <div class="container">
         <div class="row gap-css">
           <div class="col-lg-6">
-            <h1 class="common-h-one-heading">
+            <h1 class="common-h-one-heading bannar-responsive-h-one-heading">
               Building stellar websites for early startups
             </h1>
             <p class="common-pragraph main-pragrapg">
@@ -76,8 +78,8 @@
               eiusmod tempor incididunt.
             </p>
             <div class="bannar-btn">
-              <a href="#" class="common-btn bannar-main-btn">View our work </a>
-              <a href="#" class="bannar-button-two"
+              <a href="#" class="common-btn bannar-main-btn ">View our work </a>
+              <a href="#" class="bannar-button-two "
                 >View Pricing
                 <i class="fa-solid fa-arrow-right-long btn-arrow"></i>
               </a>

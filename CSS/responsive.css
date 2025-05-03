@@ -1,0 +1,155 @@
+/* =============================================
+        extra small device srart
+=============================================== */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* ===============================================
+      Nav part strat
+  ================================================= */
+
+  .navbar-toggler {
+    color: transparent !important;
+  }
+  .bannar .menu-icon {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  .nav-elm-responsive {
+    text-align: start;
+    margin-top: 17px;
+  }
+  .nav-elm-responsive .navbar-nav {
+    gap: 9px;
+    /* align-items: center; */
+    margin-left: 102px !important;
+  }
+  .responsive-common-btn {
+    padding: 3px 25px;
+    margin-left: 59px !important;
+    margin-top: 15px !important;
+  }
+  /* ===============================================
+      Nav part end
+  ================================================= */
+  /* ===============================================
+      Bannar part strat
+  ================================================= */
+
+  #bannar .bannar-responsive-h-one-heading {
+    font-size: 34px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 44px;
+  }
+  #bannar .main-pragrapg {
+    color: #ffffff !important;
+    padding-top: 26px !important;
+    padding-bottom: 30px !important;
+    width: 321px !important;
+    font-size: 13px;
+    line-height:22px ;
+  }
+  .bannar-btn .bannar-main-btn{
+    
+    
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 11px;
+    padding: 11px 20px;
+    border: 1px solid #f4f6fc;
+    border-radius: 41px;
+    transition: all linear 0.2s;
+    
+  }
+  .bannar-btn .bannar-button-two {
+
+      font-size: 13px !important;
+      font-weight: 400;
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      line-height: 28px;
+    
+  }
+  #bannar .btn-arrow {
+    position: absolute;
+    top: 8px;
+    right: -18px !important;
+    opacity: 0;
+    transition: all linear 0.3s;
+  }
+  #bannar .bannar-button-two:hover .btn-arrow {
+    opacity: 1 ;
+    right: -25px !important;
+  }
+}
+
+/* ===============================================
+      Bannar part end
+  ================================================= */
+/* ===============================================
+      Nav part strat
+  ================================================= */
+/* ===============================================
+      Nav part end
+  ================================================= */
+/* ===============================================
+      Nav part strat
+  ================================================= */
+/* ===============================================
+      Nav part end
+  ================================================= */
+/* ===============================================
+      Nav part strat
+  ================================================= */
+/* ===============================================
+      Nav part end
+  ================================================= */
+
+/* =============================================
+        extra small device end
+=============================================== */
+/* =============================================
+         small device start
+=============================================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannar {
+    background: #56df;
+  }
+}
+
+/* =============================================
+         small device end
+=============================================== */
+/* =============================================
+         md device start
+=============================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+/* =============================================
+         md device end
+=============================================== */
+/* =============================================
+            large device start
+=============================================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/* =============================================
+            large device end
+=============================================== */
+/* =============================================
+        extra large device start
+=============================================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+/* =============================================
+  extra large device end
+=============================================== */
+/* =============================================
+     extra extra large device start
+=============================================== */
+@media (max-width: 1400px) {
+}
+/* =============================================
+         extra extra large device start
+=============================================== */
