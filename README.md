@@ -1,2 +1,1 @@
-# Finsweet
-# Responsive-Finsweet
+# ResponsiveFinsweet
