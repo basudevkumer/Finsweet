@@ -24,16 +24,19 @@
   }
   .responsive-common-btn {
     padding: 3px 25px;
-    margin-left: 59px !important;
+    margin-left: 69px !important;
     margin-top: 15px !important;
   }
+
   /* ===============================================
       Nav part end
   ================================================= */
   /* ===============================================
       Bannar part strat
   ================================================= */
-
+  #bannar {
+    padding: 78px 0;
+  }
   #bannar .bannar-responsive-h-one-heading {
     font-size: 34px;
     font-weight: 500;
@@ -47,11 +50,9 @@
     padding-bottom: 30px !important;
     width: 321px !important;
     font-size: 13px;
-    line-height:22px ;
+    line-height: 22px;
   }
-  .bannar-btn .bannar-main-btn{
-    
-    
+  .bannar-btn .bannar-main-btn {
     font-size: 12px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -60,16 +61,13 @@
     border: 1px solid #f4f6fc;
     border-radius: 41px;
     transition: all linear 0.2s;
-    
   }
   .bannar-btn .bannar-button-two {
-
-      font-size: 13px !important;
-      font-weight: 400;
-      color: #ffffff;
-      font-family: "Poppins", sans-serif;
-      line-height: 28px;
-    
+    font-size: 13px !important;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
   }
   #bannar .btn-arrow {
     position: absolute;
@@ -79,8 +77,13 @@
     transition: all linear 0.3s;
   }
   #bannar .bannar-button-two:hover .btn-arrow {
-    opacity: 1 ;
+    opacity: 1;
     right: -25px !important;
+  }
+  #bannar .bannar-img {
+    width: 100%;
+    margin-left: -1px;
+    margin-top: 59px;
   }
 }
 
