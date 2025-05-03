@@ -91,10 +91,65 @@
       Bannar part end
   ================================================= */
 /* ===============================================
-      Nav part strat
+      work part strat
   ================================================= */
+
+.common-h-two-heading {
+  font-size: 29px;
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 18px;
+}
+#work .work-left-paragraph {
+  color: #282938;
+  width: 200px !important;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.work-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  position: relative;
+  margin-left: 67px;
+}
+.work-btn .work-btn-arrow {
+  position: absolute;
+  top: 3px;
+  right: -15px !important;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+.work-btn:hover .work-btn-arrow {
+  opacity: 1;
+  right: -25px !important;
+}
+.work-right {
+  margin-left: 36px;
+  margin-top: 75px;
+}
+.work-right-elm img {
+  width: 13%;
+}
+.work-right-heding {
+  font-size: 33px !important;
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+.work-right-pragraph {
+  line-height: 21px !important;
+  font-size: 12px !important;
+  width: 300px !important;
+  margin-bottom: 19px;
+}
+
 /* ===============================================
-      Nav part end
+      work part end
   ================================================= */
 /* ===============================================
       Nav part strat
