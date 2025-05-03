@@ -44,7 +44,7 @@
     font-family: "Poppins", sans-serif;
     line-height: 44px;
   }
-  #bannar .main-pragrapg {
+  #bannar .bannar-responsive-pragraph {
     color: #ffffff !important;
     padding-top: 26px !important;
     padding-bottom: 30px !important;
@@ -52,7 +52,7 @@
     font-size: 13px;
     line-height: 22px;
   }
-  .bannar-btn .bannar-main-btn {
+  .responsive-bannar-btn .responsive-bannar-main-btn {
     font-size: 12px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -62,25 +62,25 @@
     border-radius: 41px;
     transition: all linear 0.2s;
   }
-  .bannar-btn .bannar-button-two {
+  .responsive-bannar-btn .responsive-bannar-button-two {
     font-size: 13px !important;
     font-weight: 400;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     line-height: 28px;
   }
-  #bannar .btn-arrow {
+  #bannar .responsive-btn-arrow {
     position: absolute;
     top: 8px;
     right: -18px !important;
     opacity: 0;
     transition: all linear 0.3s;
   }
-  #bannar .bannar-button-two:hover .btn-arrow {
+  #bannar .resopnsive-bannar-button-two:hover .responsive-btn-arrow {
     opacity: 1;
     right: -25px !important;
   }
-  #bannar .bannar-img {
+  #bannar .responsive-bannar-img {
     width: 100%;
     margin-left: -1px;
     margin-top: 59px;
@@ -94,14 +94,14 @@
       work part strat
   ================================================= */
 
-.common-h-two-heading {
+.responsive-work-left-heading {
   font-size: 29px;
   font-weight: 600;
   color: darkblue;
   font-family: "Poppins", sans-serif;
   line-height: 18px;
 }
-#work .work-left-paragraph {
+#work .responsive-work-left-paragraph {
   color: #282938;
   width: 200px !important;
   padding-top: 16px;
@@ -109,7 +109,7 @@
   font-size: 13px;
   line-height: 20px;
 }
-.work-btn {
+.responsive-work-btn {
   font-size: 12px;
   font-weight: 500;
   color: #2405f2;
@@ -118,33 +118,33 @@
   position: relative;
   margin-left: 19px;
 }
-.work-btn .work-btn-arrow {
+.responsive-work-btn .responsive-work-btn-arrow {
   position: absolute;
   top: 3px;
   right: -15px !important;
   opacity: 0;
   transition: all linear 0.2s;
 }
-.work-btn:hover .work-btn-arrow {
+.responsive-work-btn:hover .work-btn-arrow {
   opacity: 1;
   right: -25px !important;
 }
-.work-left {
-	margin-left: 74px;
+.responsive-work-left {
+  margin-left: 74px;
 }
-.work-right {
+.responsive-work-right {
   margin-left: 36px !important;
   margin-top: 75px !important;
 }
-.work-right-elm img {
+.responsive-work-right-elm img {
   width: 13%;
 }
-.work-right-heding {
+.responsive-work-right-heding {
   font-size: 33px !important;
   padding-top: 9px !important;
   padding-bottom: 9px !important;
 }
-.work-right-pragraph {
+.responsive-work-right-pragraph {
   line-height: 21px !important;
   font-size: 12px !important;
   width: 300px !important;
