@@ -1,98 +1,120 @@
 /* =============================================
         extra small device srart
 =============================================== */
+<<<<<<< Updated upstream
 @media (max-width: 575.98px) {
+=======
+@media (min-width: 320px) and (max-width: 575.99px) {
+>>>>>>> Stashed changes
   /* ===============================================
       Nav part strat
   ================================================= */
-
-  .navbar-toggler {
-    color: transparent !important;
-  }
-  .bannar .menu-icon {
+  .fa-solid {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 26px;
   }
-  .nav-elm-responsive {
-    text-align: start;
-    margin-top: 17px;
-  }
-  .nav-elm-responsive .navbar-nav {
-    gap: 9px;
-    /* align-items: center; */
-    margin-left: 102px !important;
-  }
-  .responsive-common-btn {
-    padding: 3px 25px;
-    margin-left: 69px !important;
-    margin-top: 15px !important;
-  }
+  .navbar-collapse {
+    background: #1c3f53;
 
+    border-radius: 10px;
+    text-align: center;
+  }
+  .navbar-collapse {
+    /* margin-top: 55px; */
+  }
+  .navbar-toggler {
+    margin-bottom: 50px;
+  }
+  .navbar-brand {
+    margin-bottom: 50px;
+  }
+  .navbar-nav {
+    gap: 22px;
+    padding: 25px 0px 0px !important;
+  }
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 9px 36px;
+    margin: 20px 0px 25px;
+  }
+  nav .nav-link {
+    line-height: 25px;
+  }
+  /* nav .nav-link:hover {
+    background-color: transparent !important;
+    border-color:#ffffff !important;
+  } */
+  .common-btn:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0;
+    border-color: none;
+  }
   /* ===============================================
       Nav part end
   ================================================= */
   /* ===============================================
       Bannar part strat
   ================================================= */
-  #bannar {
-    padding: 78px 0;
-  }
-  #bannar .bannar-responsive-h-one-heading {
+  .common-h-one-heading {
     font-size: 34px;
-    font-weight: 500;
+    line-height: 45px;
+  }
+  .common-pragraph {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #bannar .main-pragrapg {
+    width: fit-content;
+  }
+  #bannar .bannar-main-btn {
+    padding: 7px 23px;
+    background: transparent;
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    line-height: 44px;
+    border: 1px solid #ffffff;
   }
-  #bannar .bannar-responsive-pragraph {
-    color: #ffffff !important;
-    padding-top: 26px !important;
-    padding-bottom: 30px !important;
-    width: 321px !important;
-    font-size: 13px;
-    line-height: 22px;
+  .responsive-bannar-btn {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
-  .responsive-bannar-btn .responsive-bannar-main-btn {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    line-height: 11px;
-    padding: 11px 20px;
-    border: 1px solid #f4f6fc;
-    border-radius: 41px;
-    transition: all linear 0.2s;
-  }
-  .responsive-bannar-btn .responsive-bannar-button-two {
-    font-size: 13px !important;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    line-height: 28px;
-  }
-  #bannar .responsive-btn-arrow {
-    position: absolute;
-    top: 8px;
-    right: -18px !important;
-    opacity: 0;
-    transition: all linear 0.3s;
-  }
-  #bannar .resopnsive-bannar-button-two:hover .responsive-btn-arrow {
-    opacity: 1;
-    right: -25px !important;
-  }
-  #bannar .responsive-bannar-img {
+  .responsive-bannar-img {
     width: 100%;
-    margin-left: -1px;
-    margin-top: 59px;
+    text-align: center;
+    margin-top: 80px;
   }
-}
+  .common-h-two-heading {
+    font-size: 41px;
+  }
+  #work .work-left-paragraph {
+    width: auto;
+  }
+  #bannar .bannar-button-two:hover .btn-arrow {
+    opacity: 0;
+    right: -33px;
+  }
 
-/* ===============================================
+  .work-btn {
+    color: #282938;
+    margin-bottom: 108px;
+  }
+  .work-btn:hover {
+    color: #282938;
+  }
+
+  /* ===============================================
       Bannar part end
   ================================================= */
-/* ===============================================
+  /* ===============================================
       work part strat
   ================================================= */
+<<<<<<< Updated upstream
 .responsive-work-left {
   margin: 0px 40px;
 }
@@ -223,21 +245,247 @@
   right: -23px !important;
 }
 /* ===============================================
+=======
+  .work-right-elm {
+    text-align: center;
+    width: auto;
+  }
+  .work-right {
+    margin: auto;
+  }
+  .responsive-work-btn {
+    color: #282938 !important;
+  }
+
+  /* ===============================================
+      work part end
+  ================================================= */
+  /* ===============================================
+      Project part strat
+  ================================================= */
+  .project-heading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .project-btn:hover {
+    color: #282938;
+  }
+  .overlay-heading {
+    width: auto;
+    line-height: 27px;
+    font-size: 19px !important;
+  }
+  .overlay-img {
+    width: 100%;
+  }
+  .overlay {
+    margin-bottom: 20px;
+  }
+  .overlay .overlay-display {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-text {
+    padding-top: 33px;
+    padding-left: 28px;
+  }
+  .overlay-pragraph {
+    padding: 14px 0 15px;
+    width: auto;
+    font-size: 14px;
+  }
+  .work-btn:hover {
+    color: #ffffff;
+    color: #fcd980;
+  }
+  .work-btn {
+    color: #fcd980;
+  }
+  .work-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .web-design-one img {
+    width: 100%;
+  }
+  .web-design-overlay-one {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .web-design-one:hover .web-design-overlay-one {
+    opacity: 1;
+  }
+  .web-design-overlay-one .wed-overlay-elm {
+    padding: 105px 46px 83px;
+  }
+  .web-design-two {
+    position: relative;
+  }
+  .web-design-overlay-two {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  .web-design-two:hover .web-design-overlay-two {
+    opacity: 1;
+  }
+  .overlay-btn {
+    color: #fcd980 !important;
+  }
+  /* ===============================================
+>>>>>>> Stashed changes
       Project part end
   ================================================= */
-/* ===============================================
-      Nav part strat
-  ================================================= */
-/* ===============================================
-      Nav part end
+  #feature .feature-heading-one {
+    color: #282938 !important;
+    width: auto;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 9px;
+  }
+  #feature .feature-card {
+    text-align: center;
+    width: fit-content;
+  }
+  #feature .feature-img {
+    width: 15%;
+  }
+  #feature .feature-child-card-elm {
+    padding: 58px 0px 48px;
+  }
+  .feature-child-card-elm {
+  }
+  #feature .feature-card-pragraph {
+    width: 291px;
+  }
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 24px;
+  }
+  .client-heading-one {
+    width: auto;
+    font-size: 24px;
+    line-height: 37px;
+  }
+  #client .client-pragraph {
+    width: auto;
+    margin: 12px 0 25px;
+  }
+  #client .client-heading-two {
+    width: auto;
+    color: #282938;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .client-detais {
+  }
+  .client-detais {
+    align-items: center;
+    justify-content: center;
+  }
+  #client .client-detais img {
+    width: 19%;
+  }
+  #client .client-detais {
+    margin-top: 55px;
+  }
+  /* ===============================================
+      Client part end
   ================================================= */
 
-/* =============================================
+  /* ===============================================
+      FAQ part strat
+  ================================================= */
+  .client-btn {
+    color: #282938 !important;
+    padding-top: 12px;
+  }
+  #faq .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #faq .accordion-item span {
+    padding-right: 28px;
+    color: #2405f2;
+  }
+  #faq {
+    padding: 26px 0 133px;
+  }
+  .accordion-item{
+    display: flex;
+    flex-direction: column;
+  }
+  .accordion-button {
+    display: flex;
+    justify-content: start; 
+    align-items: start;     
+                
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 71px;
+    padding-bottom: 46px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  /* ===============================================
+      FAQ part end
+  ================================================= */
+  /* ===============================================
+      building part strat
+  ================================================= */
+}
+#building .bulding-overlay-elm .bulding-overlay {
+
+
+  right: 0%;
+  /* height: 100%;
+  width: 100%; */
+  opacity: 1;
+
+}
+#building .bulding-overlay-elm:hover .bulding-overlay {
+  opacity: 1;
+}
+#building .bulding-overlay {
+	padding: 85px 50px 20px;
+}
+.building-overlay-heading {
+	font-size: 25px;
+	line-height: 45px;
+	width: auto !important;
+	line-height: 30px;
+}
+.bulding-overlay-pragraph{
+  width: auto !important;
+  font-size: 13px;
+  line-height: 20px;
+ 
+}
+#building .bulding-overlay-elm img {
+  width: 100%;
+  height: 100%;
+}
+
+  /* ===============================================
+      building part end
+  ================================================= */
+
+  /* =============================================
         extra small device end
 =============================================== */
-/* =============================================
+  /* =============================================
          small device start
 =============================================== */
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   .bannar {
     background: #56df;
@@ -251,6 +499,9 @@
          md device start
 =============================================== */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .bannar {
+    background: rgb(217, 221, 85);
+  }
 }
 /* =============================================
          md device end
@@ -259,11 +510,16 @@
             large device start
 =============================================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+<<<<<<< Updated upstream
   .responsive-work-left-heading {
     font-size: 54px;
     font-weight: ;
     line-height: ;
     width: ;
+=======
+  .bannar {
+    background: rgb(85, 196, 221);
+>>>>>>> Stashed changes
   }
 }
 /* =============================================
@@ -273,6 +529,7 @@
         extra large device start
 =============================================== */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+<<<<<<< Updated upstream
   .responsive-work-left-heading {
     font-size: 54px;
     font-weight: ;
@@ -281,6 +538,10 @@
   }
   .responsive-work-left p {
     width: 405px !important;
+=======
+  .bannar {
+    background: rgb(158, 4, 179);
+>>>>>>> Stashed changes
   }
 }
 /* =============================================
@@ -290,11 +551,16 @@
      extra extra large device start
 =============================================== */
 @media (min-width: 1400px) {
+<<<<<<< Updated upstream
   .responsive-work-left-heading {
     font-size: 54px;
     font-weight: ;
     line-height: ;
     width: ;
+=======
+  .bannar {
+    background: rgb(96, 221, 85);
+>>>>>>> Stashed changes
   }
 }
 /* =============================================
